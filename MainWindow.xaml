@@ -1,0 +1,21 @@
+﻿<Window x:Class="RegistroDetalleModificado.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroDetalleModificado"
+        mc:Ignorable="d"
+        Title="REGISTRO DETALLE MODIFICADO" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Menu Height="18">
+                <MenuItem Header="Registros">
+                    <MenuItem x:Name="RegistroRolesMenuItem" Header="Registro de Roles" Click="RegistroRolesMenuItem_Click"/>
+                </MenuItem>
+                <MenuItem Header="Consultas">
+                    <MenuItem x:Name="ConsultaRolesMenuItem" Header="Consulta de Roles" Click="ConsultaRolesMenuItem_Click"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+</Window>
